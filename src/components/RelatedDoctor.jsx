@@ -20,9 +20,9 @@ const RelatedDoctor = ({ docId, speciality }) => {
 
   return (
     <section className="flex flex-col items-center gap-4 my-16 text-gray-900 md:mx-10">
-      <h1 className="text-3xl font-medium">Related Doctors</h1>
+      <h1 className="text-3xl font-medium">Related Services</h1>
       <p className="max-w-lg text-center text-base">
-        Simply browse through our extensive list of trusted doctors.
+        Simply browse through our extensive list of services.
       </p>
       {/* Check if the relDoc array is empty */}
       {relDoc.length === 0 ? (

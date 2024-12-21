@@ -17,16 +17,17 @@ const Navbar = () => {
   const [token, setToken] = useState(true);
 
   return (
-    <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
+    <div className="flex items-center justify-start text-sm py-4 mb-5 border-b border-b-gray-400">
       <img
         onClick={() => navigate("/login")}
-        className="w-40 cursor-pointer"
+        className="w-20 cursor-pointer"
         src={logo}
         alt="logo"
         width={216}
         height={46}
       />
-      <ul className="hidden lg:flex items-start gap-5 font-medium">
+      <p className="ml-4 pr-40">Young and Beauty Aesthetic</p>
+      <ul className="hidden lg:flex items-start gap-5 font-medium ml-4">
         {navLinks.map((navLink) => (
           <li key={navLink.name}>
             <NavLink className="nav__link relative" to={navLink.link}>
@@ -36,7 +37,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className="flex items-center">
+      <div className="flex items-center ml-auto">
         {token ? (
           <div className="flex items-center gap-2 cursor-pointer group relative">
             <img

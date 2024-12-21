@@ -68,7 +68,7 @@ export const navLinks = [
     link: "/",
   },
   {
-    name: "ALL DOCTORS",
+    name: "ALL SERVICES",
     link: "/doctors",
   },
   {
@@ -111,14 +111,14 @@ export const specialityData = [
 export const doctors = [
   {
     _id: "doc1",
-    name: "Dr. Richard James",
+    name: "瘦脸针 - Face slimming injections",
     image: doc1,
-    speciality: "General physician",
-    degree: "MBBS",
+    speciality: "General injections",
+    degree: "TYPE",
     experience: "4 Years",
     about:
-      "Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.",
-    fees: 50,
+      "Face slimming injections are a non-surgical cosmetic treatment that primarily use botulinum toxin (Botox) or similar substances to enhance facial contours, making the face appear softer and more refined.",
+    fees: 10,
     address: {
       line1: "17th Cross, Richmond",
       line2: "Circle, Ring Road, London",
